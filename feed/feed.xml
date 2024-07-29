@@ -4,21 +4,12 @@
 	<subtitle>Thoughts on ideas concerning the church, society, and technology</subtitle>
 	<link href="https://brianroberg.com/feed/feed.xml" rel="self"/>
 	<link href="https://brianroberg.com/"/>
-	<updated>2023-01-23T00:00:00Z</updated>
+	<updated>2022-03-07T00:00:00Z</updated>
 	<id>https://brianroberg.com</id>
 	<author>
 		<name>Brian Roberg</name>
 		<email>brian@brianroberg.com</email>
 	</author>
-	
-	<entry>
-		<title>This is a fifth post (draft)</title>
-		<link href="https://brianroberg.com/blog/fifthpost/"/>
-		<updated>2023-01-23T00:00:00Z</updated>
-		<id>https://brianroberg.com/blog/fifthpost/</id>
-		<content type="html">&lt;p&gt;This is a draft post&lt;/p&gt;
-</content>
-	</entry>
 	
 	<entry>
 		<title>Book Review: Essentialism by Greg McKeown</title>
@@ -39,62 +30,22 @@
 	</entry>
 	
 	<entry>
-		<title>This is my fourth post!</title>
-		<link href="https://brianroberg.com/blog/fourthpost/"/>
-		<updated>2018-09-30T00:00:00Z</updated>
-		<id>https://brianroberg.com/blog/fourthpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://brianroberg.com/img/IdthKOzqFA-350.avif 350w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://brianroberg.com/img/IdthKOzqFA-350.webp 350w&quot;&gt;&lt;img alt=&quot;A possum parent and two possum kids hanging from the iconic red balloon&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://brianroberg.com/img/IdthKOzqFA-350.png&quot; width=&quot;350&quot; height=&quot;685&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;header-anchor&quot; href=&quot;https://brianroberg.com/blog/fourthpost/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>This is my third post.</title>
-		<link href="https://brianroberg.com/blog/thirdpost/"/>
-		<updated>2018-08-24T00:00:00Z</updated>
-		<id>https://brianroberg.com/blog/thirdpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;h2 id=&quot;code&quot; tabindex=&quot;-1&quot;&gt;Code &lt;a class=&quot;header-anchor&quot; href=&quot;https://brianroberg.com/blog/thirdpost/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;styled-with-syntax&quot; tabindex=&quot;-1&quot;&gt;Styled (with Syntax) &lt;a class=&quot;header-anchor&quot; href=&quot;https://brianroberg.com/blog/thirdpost/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;pre class=&quot;language-js&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// this is a command&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;myCommand&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-	counter&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;// Test with a line break above this line.&lt;/span&gt;
-console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;Test&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&quot;unstyled&quot; tabindex=&quot;-1&quot;&gt;Unstyled &lt;a class=&quot;header-anchor&quot; href=&quot;https://brianroberg.com/blog/thirdpost/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
-
-// Test with a line break above this line.
-console.log(&#39;Test&#39;);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;header-anchor&quot; href=&quot;https://brianroberg.com/blog/thirdpost/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>This is my second post with a much longer title.</title>
-		<link href="https://brianroberg.com/blog/secondpost/"/>
-		<updated>2018-07-04T00:00:00Z</updated>
-		<id>https://brianroberg.com/blog/secondpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;header-anchor&quot; href=&quot;https://brianroberg.com/blog/secondpost/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://brianroberg.com/blog/firstpost/&quot;&gt;First post&lt;/a&gt;
-&lt;a href=&quot;https://brianroberg.com/blog/thirdpost/&quot;&gt;Third post&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
+		<title>Book Review: Four Thousand Weeks by Oliver Burkeman</title>
+		<link href="https://brianroberg.com/blog/four-thousand-weeks/"/>
+		<updated>2022-01-31T00:00:00Z</updated>
+		<id>https://brianroberg.com/blog/four-thousand-weeks/</id>
+		<content type="html">&lt;p&gt;Every once in a while I&#39;ve looked for a book that presents a cogent and intellectually honest case for finding meaning in life, but without reference to God. My various casual searches were thwarted by the fact that the most prominent books that are tagged as “atheist” tend towards polemic. Since most real people are not polemicists, I judged such books unhelpful for understanding the views of people I might actually talk to. I’d given up looking.&lt;/p&gt;
+&lt;p&gt;I was reminded of this desire as I read Oliver Burkeman&#39;s new book, &lt;em&gt;Four Thousand Weeks: Time Management for Mortals&lt;/em&gt;. As indicated by its subtitle, the nominal topic of the book is time management.  But the real scope of the book is both broader and deeper. In fact, I think a more accurate (if less marketable) subtitle would be something like &lt;em&gt;An Atheist’s Guide to Living Well.&lt;/em&gt; In the end I concluded that this book delivers not only helpful insights related to time management, but also a broader perspective toward life that I found valuable to read even though I profoundly disagree with some of Burkeman’s basic premises.&lt;/p&gt;
+&lt;p&gt;Burkeman takes it as a given that there is no God—at least no God about whom we can know enough that He should figure into any of our decision-making. But Burkeman’s tone is nothing like that of the strident atheists who sell books by railing against God. In fact, both times he quotes Scripture in the book he does so with a respectful tone (even if one of the quotes was taken out of context). But it was a verse of Scripture he did &lt;em&gt;not&lt;/em&gt; quote which best captures a major part of Burkeman’s thesis. That verse is James 4:14: “Yet you do not know what tomorrow will bring. What is your life? For you are a mist that appears for a little time and then vanishes.”&lt;/p&gt;
+&lt;p&gt;The principal virtue of this book is that it provides—in effect, if not by intent—a clear, thorough, and insightful exploration of the implications of James 4:14. The “four thousand weeks” of the title refers to the number of weeks (roughly) in an 80-year life span, and Burkeman does an excellent job calling out ways in which we tend to ignore the fact of our mortality—especially in the peculiar corner of the self-help publishing world that focuses on time management and productivity.&lt;/p&gt;
+&lt;p&gt;Burkeman asserts that time management is a failed discipline, and not only because it doesn’t deliver on its promises in terms of objective productivity. The more fundamental problem with time management technique is the implicit promise that usually lies &lt;em&gt;behind&lt;/em&gt; the technique: that if you just master the technique, you will achieve mastery over your life as well as freedom from the nagging feeling that your life is slipping through your fingers. Burkeman counters this seductive promise with hard reality. We are going to die. We are &lt;em&gt;finite beings&lt;/em&gt; who are inescapably bound to limitations in time and opportunity. To the degree that time management promises that we can accomplish everything that’s important to us so that we’ll never have to say “no” to opportunities we’d really like to pursue—to that degree, time management is a delusion that disconnects us from reality and diminishes our lives.&lt;/p&gt;
+&lt;p&gt;Burkeman is relentless in driving this home in one area of life after another. I lost track of how many times he said some variation of “This might sound bleak, but there’s freedom in acknowledging that it’s true.” I actually found this quite refreshing, as it reflects a pattern of argumentation that acknowledges that what we believe about ourselves doesn’t matter if our beliefs don’t conform to the true nature of reality. It also reflected his priorities in what he wanted to convey. He was clearly more interested in helping readers think clearly in the big picture than he was in teaching particular techniques. For example, whereas he mentioned David Allen once, he devoted several pages to discussing Martin Heidegger’s philosophy about man in relation to time.&lt;/p&gt;
+&lt;p&gt;Not that the book was entirely ethereal. For instance, Burkeman suggested a litmus test for judging a particular time management technique: whether the technique helps you “neglect the right things.” Techniques are helpful insofar as they help surface the hard decisions about which opportunities to pursue and which to reject. On the other hand, he said, be wary of techniques that obscure or defer such decisions, and especially of those that deny that such decisions are necessary. (Though Burkeman did not call out many techniques by name, he did single out the “Big Rocks” illustration from Stephen Covey&#39;s book &lt;em&gt;First Things First&lt;/em&gt;, calling it a “lie.”)&lt;/p&gt;
+&lt;p&gt;Burkeman is similarly incisive in handling topics such as procrastination, attention, distraction, and rest. In each of these areas he went deeper than I had thought before and made connections I hadn’t made before. His discussion on these topics is worth the time of reading the book on its own.&lt;/p&gt;
+&lt;p&gt;But as I mentioned earlier, the book is not so much &lt;em&gt;about&lt;/em&gt; time management as that it uses time management as a rendezvous point for an expedition into the question of how to live life well. I will still commend Burkeman as a worthy guide in this endeavor, but with an important qualification. Christians who have a solid biblical understanding of who they are in relation to God and the world can benefit from Burkeman’s secular take on how to find meaning in life. People without a biblical grounding, however, could be led astray.&lt;/p&gt;
+&lt;p&gt;In fact, if James 4:14 helps us see the virtues of this book, the following verse—James 4:15—serves as an indictment of its shortcomings. That verse says, “Instead you ought to say, ‘If the Lord wills, we will live and do this or that.’” Burkeman does not believe that God’s will should figure into our decision-making, so his guidance concerning the ultimate ground of our decision-making leads him to unbiblical conclusions. Like the Preacher of Ecclesiastes, he provides valuable insight regarding matters under the sun but has little to say about eternal matters.&lt;/p&gt;
+&lt;p&gt;That said, I do want to credit Burkeman for his intellectual honesty. A less careful non-theist might assert that human life has inherent dignity and meaning, forgetting that for life to be &lt;em&gt;inherently&lt;/em&gt; meaningful it must receive that meaning from something outside itself. (In the Christian conception, every person has dignity and purpose because every person is created in the image of God.) Burkeman, in contrast, shoulders the harder work of carving out a path for a person to imbue his own life with meaning in the midst of an indifferent universe. (He does this along existentialist lines, investing tremendous weight in the sanctity of human self-determination.)&lt;/p&gt;
+&lt;p&gt;In sum, I would recommend &lt;em&gt;Four Thousand Weeks&lt;/em&gt; to anyone looking to better understand the constraints we face as limited creatures. It is a rare book that earnestly seeks meaning in life while taking care not to smuggle in ideas that derive from some form of theism. Within these constraints (i.e. under the sun) it offers wisdom. In addition, its vivid picture of the struggle to construct meaning for one’s own life could also help Christians as they share with their secular friends how the gospel expands the horizon of our lives.&lt;/p&gt;
 </content>
 	</entry>
 </feed>
