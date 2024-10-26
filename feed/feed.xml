@@ -4,12 +4,38 @@
 	<subtitle>Thoughts on ideas concerning the church, society, and technology</subtitle>
 	<link href="https://brianroberg.com/feed/feed.xml" rel="self"/>
 	<link href="https://brianroberg.com/"/>
-	<updated>2024-09-13T00:00:00Z</updated>
+	<updated>2024-10-25T00:00:00Z</updated>
 	<id>https://brianroberg.com</id>
 	<author>
 		<name>Brian Roberg</name>
 		<email>brian@brianroberg.com</email>
 	</author>
+	
+	<entry>
+		<title>What It Means that AI Will Be Disruptive</title>
+		<link href="https://brianroberg.com/blog/ai-disruption-meaning/"/>
+		<updated>2024-10-25T00:00:00Z</updated>
+		<id>https://brianroberg.com/blog/ai-disruption-meaning/</id>
+		<content type="html">&lt;p&gt;I distinctly remember my first encounter with a large language model (LLM). It was sometime in early 2022, and I&#39;d been hearing enough about GPT-3 (a forerunner of ChatGPT) that I wanted to try it out myself.  I had decided to test its capabilities by providing it with the first three-quarters of a recent ministry newsletter I had written and asking it to compose the conclusion.&lt;/p&gt;
+&lt;p&gt;When I read the model&#39;s output, I experienced that sinking sensation you get in your gut when something goes really wrong. I had been ready to be impressed if the model could devise a coherent conclusion to the &lt;em&gt;sequence of events&lt;/em&gt; I&#39;d narrated in the prompt. What floored me was that it not only did that, but closed the letter by &lt;em&gt;casting vision&lt;/em&gt; for the kingdom-building opportunities in campus ministry. (It was something along the lines of, &amp;quot;We are truly grateful for your unwavering support that enables us to continue reaching out and making an impact on young lives like J.&#39;s. This story is a testament to God&#39;s unfailing love and pursuit of His children, even in the darkest times…&amp;quot;)&lt;/p&gt;
+&lt;p&gt;(footnote: I generated this example using the same newsletter I used then, but this time with an open source model running on my laptop.)&lt;/p&gt;
+&lt;p&gt;I may have even said a prayer in that moment: &amp;quot;Lord, have mercy.&amp;quot;&lt;/p&gt;
+&lt;p&gt;Why that response instead of the excitement that so many others have felt at such amazing technical advances? The word at the center of my answer to that is &amp;quot;disruption,&amp;quot; as in &lt;em&gt;&amp;quot;AI is going to be a highly disruptive technology.&lt;/em&gt;&amp;quot; In the rest of this post I&#39;ll try to explain what I mean by that.&lt;/p&gt;
+&lt;p&gt;When I say that AI will be disruptive, I mean that it will increasingly display two characteristics:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Impact: It will cause &lt;em&gt;significant&lt;/em&gt; changes to our social, cultural, and economic order.&lt;/li&gt;
+&lt;li&gt;Speed: These changes will occur &lt;em&gt;quickly enough&lt;/em&gt; that people and institutions will not be able to adapt without experiencing jarring discontinuity.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;When both of these characteristics are present, we experience a technology as disruptive. It&#39;s what we experienced in the 80&#39;s when the personal computer made rapid inroads into businesses of all sizes and &amp;quot;computerization&amp;quot; resulted in the obsolescence of entire categories of employment. We saw it again in the late aughts and early 10&#39;s when the smartphone put the world in everyone&#39;s pocket and rapidly re-ordered norms regarding what it means to be present in-person with someone.&lt;/p&gt;
+&lt;p&gt;Note that &amp;quot;disruptive&amp;quot; is not the same as &amp;quot;destructive.&amp;quot; While it&#39;s in our nature to experience rapid, significant change as a negative experience, it&#39;s worth pointing out that disruption can be good. I&#39;m not attempting to render a judgment on AI technology by labeling it &amp;quot;disruptive.&amp;quot; Such judgments need to be made, but it&#39;s not what we&#39;re doing in this particular discussion.&lt;/p&gt;
+&lt;p&gt;In subsequent posts I&#39;ll flesh out particular ways in which I expect AI will be disruptive, but for the purpose of illustrating what disruption means I&#39;ll go ahead and provide one example of a disruption that is already well underway: educators&#39; use of essays or papers as a means of measuring students&#39; understanding of a subject.&lt;/p&gt;
+&lt;p&gt;Our educational system has leaned heavily on this type of assessment, especially in subjects where conceptual fluency is more important than factual recall or technical proficiency. As a philosophy major, I had several courses in which my grade was entirely based on papers, with not a single quiz or exam the entire semester. My professors ran their courses this way because it gave them a low-cost yet reliable assessment of how well we understood the material. It was reliable because cheating was hard: in order to cheat you would have to lift large sections of writing from someone else&#39;s paper, which is difficult to do without being detected.&lt;/p&gt;
+&lt;p&gt;The LLM has upended that picture entirely. Now, cheating on an unproctored paper is trivial to do and near-impossible to detect. In the blink of an eye, a major tool in our educational system&#39;s toolbox was rendered at best problematic, perhaps even invalid.&lt;/p&gt;
+&lt;p&gt;Consider also the manner in which the disruption actually manifests. Imagine for a moment an alternate universe in which society is far more informed and responsive to technological change than it is in our world. In this universe, by the time ChatGPT had been released, every professor would have already rewritten his or her syllabi to replace traditional papers with some other assessment technique, such as in-class blue-book exams. Even in this universe, the LLM would have been quite disruptive, though only in what we might call a technical or logistical sense (since blue-book exams are more costly to administer than simply assigning a paper).&lt;/p&gt;
+&lt;p&gt;Of course, we don&#39;t live in that universe. In our actual universe, people and institutions respond to technological change at varying speeds, including many who are quite slow indeed. Many (most?) educators are still assigning papers as if nothing had changed. As a result, the disruption caused by the technology is not confined to the technical sphere but spills over into the social and moral spheres. Students must now reckon with a temptation toward moral compromise that is much stronger than it was just a few years ago: the risk of cheating is low, the reward is high, and (perhaps even worse) it can seem like everyone else is doing it.&lt;/p&gt;
+&lt;p&gt;This is not a theoretical problem. I work for a campus ministry, and students are sharing with us that cheating is a big part of their moral landscape now. This is the essence of disruption: difficult problems that arrive suddenly, demanding a response that we&#39;re ill-equipped to make. And this is just one example.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Book Review: Telling a Better Story</title>
