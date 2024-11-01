@@ -1,344 +1,48 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Brian&#39;s Blog</title>
-		<meta name="description" content="Thoughts on ideas concerning the church, society, and technology">
-		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Brian&#39;s Blog">
-		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Brian&#39;s Blog">
-		
-		<style>.postlist { counter-reset: start-from 5 }
-* { box-sizing: border-box; }
-/* Defaults */
-:root {
-	--font-family: -apple-system, system-ui, sans-serif;
-	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
-}
-
-/* Theme colors */
-:root {
-	--color-gray-20: #e0e0e0;
-	--color-gray-50: #C0C0C0;
-	--color-gray-90: #333;
-
-	--background-color: #fff;
-
-	--text-color: var(--color-gray-90);
-	--text-color-link: #082840;
-	--text-color-link-active: #5f2b48;
-	--text-color-link-visited: #17050F;
-
-	--syntax-tab-size: 2;
-}
-
-@media (prefers-color-scheme: dark) {
-	:root {
-		--color-gray-20: #e0e0e0;
-		--color-gray-50: #C0C0C0;
-		--color-gray-90: #dad8d8;
-
-		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: #1493fb;
-		--text-color-link-active: #6969f7;
-		--text-color-link-visited: #a6a6f8;
-
-		--background-color: #15202b;
-	}
-}
-
-
-/* Global stylesheet */
-* {
-	box-sizing: border-box;
-}
-
-html,
-body {
-	padding: 0;
-	margin: 0 auto;
-	font-family: var(--font-family);
-	color: var(--text-color);
-	background-color: var(--background-color);
-}
-html {
-	overflow-y: scroll;
-}
-body {
-	max-width: 40em;
-}
-
-/* https://www.a11yproject.com/posts/how-to-hide-content/ */
-.visually-hidden {
-	clip: rect(0 0 0 0);
-	clip-path: inset(50%);
-	height: 1px;
-	overflow: hidden;
-	position: absolute;
-	white-space: nowrap;
-	width: 1px;
-}
-
-p:last-child {
-	margin-bottom: 0;
-}
-p {
-	line-height: 1.5;
-}
-
-li {
-	line-height: 1.5;
-}
-
-a[href] {
-	color: var(--text-color-link);
-}
-a[href]:visited {
-	color: var(--text-color-link-visited);
-}
-a[href]:hover,
-a[href]:active {
-	color: var(--text-color-link-active);
-}
-
-main {
-	padding: 1rem;
-}
-main :first-child {
-	margin-top: 0;
-}
-
-header {
-	border-bottom: 1px dashed var(--color-gray-20);
-}
-header:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-.links-nextprev {
-	list-style: none;
-	border-top: 1px dashed var(--color-gray-20);
-	padding: 1em 0;
-}
-
-table {
-	margin: 1em 0;
-}
-table td,
-table th {
-	padding-right: 1em;
-}
-
-pre,
-code {
-	font-family: var(--font-family-monospace);
-}
-pre:not([class*="language-"]) {
-	margin: .5em 0;
-	line-height: 1.375; /* 22px /16 */
-	-moz-tab-size: var(--syntax-tab-size);
-	-o-tab-size: var(--syntax-tab-size);
-	tab-size: var(--syntax-tab-size);
-	-webkit-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
-	direction: ltr;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-}
-code {
-	word-break: break-all;
-}
-
-/* Header */
-header {
-	display: flex;
-	gap: 1em .5em;
-	flex-wrap: wrap;
-	align-items: center;
-	padding: 1em;
-}
-.home-link {
-	font-size: 1em; /* 16px /16 */
-	font-weight: 700;
-	margin-right: 2em;
-}
-.home-link:link:not(:hover) {
-	text-decoration: none;
-}
-
-/* Nav */
-.nav {
-	display: flex;
-	padding: 0;
-	margin: 0;
-	list-style: none;
-}
-.nav-item {
-	display: inline-block;
-	margin-right: 1em;
-}
-.nav-item a[href]:not(:hover) {
-	text-decoration: none;
-}
-.nav a[href][aria-current="page"] {
-	text-decoration: underline;
-}
-
-/* Posts list */
-.postlist {
-	list-style: none;
-	padding: 0;
-	padding-left: 1.5rem;
-}
-.postlist-item {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: baseline;
-	counter-increment: start-from -1;
-	margin-bottom: 1em;
-}
-.postlist-item:before {
-	display: inline-block;
-	pointer-events: none;
-	content: "" counter(start-from, decimal-leading-zero) ". ";
-	line-height: 100%;
-	text-align: right;
-	margin-left: -1.5rem;
-}
-.postlist-date,
-.postlist-item:before {
-	font-size: 0.8125em; /* 13px /16 */
-	color: var(--color-gray-90);
-}
-.postlist-date {
-	word-spacing: -0.5px;
-}
-.postlist-link {
-	font-size: 1.1875em; /* 19px /16 */
-	font-weight: 700;
-	flex-basis: calc(100% - 1.5rem);
-	padding-left: .25em;
-	padding-right: .5em;
-	text-underline-position: from-font;
-	text-underline-offset: 0;
-	text-decoration-thickness: 1px;
-}
-.postlist-item-active .postlist-link {
-	font-weight: bold;
-}
-
-/* Tags */
-.post-tag {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	text-transform: capitalize;
-	font-style: italic;
-}
-.postlist-item > .post-tag {
-	align-self: center;
-}
-
-/* Tags list */
-.post-metadata {
-	display: inline-flex;
-	flex-wrap: wrap;
-	gap: .5em;
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-.post-metadata time {
-	margin-right: 1em;
-}
-
-/* Direct Links / Markdown Headers */
-.header-anchor {
-	text-decoration: none;
-	font-style: normal;
-	font-size: 1em;
-	margin-left: .1em;
-}
-a[href].header-anchor,
-a[href].header-anchor:visited {
-	color: transparent;
-}
-a[href].header-anchor:focus,
-a[href].header-anchor:hover {
-	text-decoration: underline;
-}
-a[href].header-anchor:focus,
-:hover > a[href].header-anchor {
-	color: #aaa;
-}
-
-h2 + .header-anchor {
-	font-size: 1.5em;
-}</style>
-	</head>
-	<body>
-		<a href="#skip" class="visually-hidden">Skip to main content</a>
-
-		<header>
-			<a href="/" class="home-link">Brian&#39;s Blog</a>
-			<nav>
-				<h2 class="visually-hidden">Top level navigation menu</h2>
-				<ul class="nav">
-					<li class="nav-item"><a href="/" aria-current="page">Home</a></li>
-					<li class="nav-item"><a href="/blog/">Archive</a></li>
-					<li class="nav-item"><a href="/about/">About Me</a></li>
-				</ul>
-			</nav>
-		</header>
-
-		<main id="skip">
-			
-
-
-<h1>Latest 3 Posts</h1>
-
-
-
-
-<ol reversed class="postlist">
-
-	<li class="postlist-item">
-		<a href="/blog/ai-disruption-meaning/" class="postlist-link">AI and Disruption</a>
-		<time class="postlist-date" datetime="2024-10-30">October 2024</time>
-	</li>
-
-	<li class="postlist-item">
-		<a href="/blog/telling-a-better-story/" class="postlist-link">Book Review: Telling a Better Story</a>
-		<time class="postlist-date" datetime="2024-09-13">September 2024</time>
-	</li>
-
-	<li class="postlist-item">
-		<a href="/blog/essentialism/" class="postlist-link">Book Review: Essentialism by Greg McKeown</a>
-		<time class="postlist-date" datetime="2022-03-07">March 2022</time>
-	</li>
-
-</ol>
-
-
-
-
-<p>1 more post can be found in <a href="/blog/">the archive</a>.</p>
-<p>testing</p>
-
-
-
-
-
-
-		</main>
-
-		<footer></footer>
-
-		<!-- This page `/` was built on 2024-10-31T11:30:35.373Z -->
-	</body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Description" content="Thoughts on ideas concerning the church, society, and technology">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #0a1d31; -webkit-text-stroke: #0a1d31}
+    p.p6 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626; min-height: 15.0px}
+    li.li3 {margin: 0.0px 12.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #0a1d31; -webkit-text-stroke: #0a1d31}
+    li.li5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.2px 'Helvetica Neue'; color: #0a1d31; -webkit-text-stroke: #0a1d31}
+    span.s1 {text-decoration: underline ; font-kerning: none}
+    span.s2 {font-kerning: none}
+    span.s3 {-webkit-text-stroke: 0px #000000}
+    span.s4 {font: 14.2px 'Helvetica Neue'; text-decoration: underline ; font-kerning: none}
+    span.s5 {font: 9.8px 'Helvetica Neue'; font-kerning: none; color: #262626; -webkit-text-stroke: 0px #262626}
+    span.s6 {font: 14.2px 'Helvetica Neue'; text-decoration: underline ; font-kerning: none; color: #0a1d31; -webkit-text-stroke: 0px #0a1d31}
+    ul.ul1 {list-style-type: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">Skip to main content</span></p>
+<p class="p1"><span class="s2"><a href="file:///"><b>Brian's Blog</b></a></span></p>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626"><span class="s2"><b>Top level navigation menu</b></span></h2>
+<ul class="ul1">
+  <li class="li3"><span class="s3"><a href="file:///"><span class="s1">Home</span></a></span></li>
+  <li class="li3"><span class="s3"><a href="file:///blog/"><span class="s2">Archive</span></a></span></li>
+  <li class="li3"><span class="s3"><a href="file:///about/"><span class="s2">About Me</span></a></span></li>
+</ul>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626"><span class="s2"><b>Latest 3 Posts</b></span></h1>
+<ul class="ul1">
+  <li class="li5"><span class="s3"><b></b><a href="file:///blog/ai-disruption-meaning/"><span class="s4"><b>AI and Disruption</b></span></a></span><span class="s1"><b><br>
+</b></span><span class="s5">October 2024<br>
+<a href="file:///blog/telling-a-better-story/"><span class="s6"><b>Book Review: Telling a Better Story</b></span></a></span><span class="s1"><b><br>
+</b></span><span class="s5">September 2024<br>
+<a href="file:///blog/essentialism/"><span class="s6"><b>Book Review: Essentialism by Greg McKeown</b></span></a></span><span class="s1"><b><br>
+</b></span><span class="s5">March 2022</span></li>
+</ul>
+<p class="p6"><span class="s2">1 more post can be found in <a href="file:///blog/"><span class="s1">the archive</span></a>.</span></p>
+<p class="p7"><span class="s2">testing 2</span></p>
+<p class="p8"><span class="s2"></span><br></p>
+</body>
 </html>
